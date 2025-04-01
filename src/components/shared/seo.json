@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "articleSEO",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "metaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "media": {
+      "displayName": "sharedImage",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-image"
+    },
+    "preventIndexing": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    },
+    "structuredData": {
+      "type": "json",
+      "required": true
+    },
+    "articles": {
+      "displayName": "relatedArticles",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.related-articles"
+    }
+  }
+}

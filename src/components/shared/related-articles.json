@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_related_articles",
+  "info": {
+    "displayName": "relatedArticles",
+    "icon": "manyWays"
+  },
+  "options": {},
+  "attributes": {
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "intro": {
+      "type": "string"
+    }
+  }
+}
