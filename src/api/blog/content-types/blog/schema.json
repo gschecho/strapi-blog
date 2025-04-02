@@ -59,7 +59,8 @@
     },
     "slug": {
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "title"
     },
     "seo": {
       "type": "component",
