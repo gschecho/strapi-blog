@@ -4,7 +4,7 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog",
+    "displayName": "BlogArticle",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -25,7 +25,7 @@
       },
       "required": true
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -33,7 +33,7 @@
         }
       }
     },
-    "HeroImage": {
+    "heroImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -41,7 +41,7 @@
         "images"
       ]
     },
-    "HeroImageDescription": {
+    "heroImageDescription": {
       "type": "text",
       "pluginOptions": {
         "i18n": {
@@ -49,7 +49,7 @@
         }
       }
     },
-    "Content": {
+    "content": {
       "type": "richtext",
       "pluginOptions": {
         "i18n": {
@@ -59,7 +59,6 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "Title",
       "required": true
     },
     "seo": {
